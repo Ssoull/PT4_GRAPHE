@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class AreteTest {
     @Test
-    public void testAjoutArrete() throws Exception {
+    public void testAjoutArete() throws Exception {
         Sommet depart = new Sommet(true);
         Sommet arriveeF = new Sommet(false);
         Sommet arrivee = new Sommet(true);
@@ -23,5 +23,18 @@ public class AreteTest {
         Arete arete2 = new Arete(true,depart,arrivee);
         assertEquals(arete2.valide(),true);
         assertEquals(arete2.id(),0);
+    }
+
+    @Test
+    public void testSuppressionArete() throws Exception {
+        Sommet depart = new Sommet(true);
+        Sommet arrivee = new Sommet(true);
+
+        Arete arete = new Arete(true,depart,arrivee);
+        assertEquals(arete.valide(),true);
+
+        arete.supprimer();
+        assertEquals(arete.valide(),false);
+        assertEquals(arete.id(),-1);
     }
 }

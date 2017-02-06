@@ -25,4 +25,8 @@ public class Arete {
     public boolean valide(){
         return (m_id != -1);
     }
+
+    public void supprimer() {
+        m_id=-1;
+    }
 }
