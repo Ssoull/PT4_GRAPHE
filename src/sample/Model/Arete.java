@@ -12,7 +12,7 @@ public class Arete {
     public Arete(boolean valide, Sommet a, Sommet b){
         entree = a;
         sortie = b;
-        if (valide == true)
+        if (valide == true && a.valide() && b.valide())
             m_id = m_curId++;
         else
             m_id = -1;

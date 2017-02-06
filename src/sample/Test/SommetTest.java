@@ -23,4 +23,13 @@ public class SommetTest {
         assertEquals(sommet2.valide(),true);
         assertEquals(sommet2.id(),1);
     }
+
+    @Test
+    public void testSuppressionSommet() throws Exception {
+        Sommet sommet = new Sommet(true);
+
+        sommet.supprimer();
+        assertEquals(sommet.valide(),false);
+        assertEquals(sommet.id(),-1);
+    }
 }
