@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d20ed382-cbf5-47d0-8838-8ee67a10f26b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Model/Sommet.java" afterPath="$PROJECT_DIR$/src/sample/Model/Sommet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Test/SommetTest.java" afterPath="$PROJECT_DIR$/src/sample/Test/SommetTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Test/AreteTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PT4_GRAPHE/sample/Test/SommetTest.class" afterPath="$PROJECT_DIR$/out/production/PT4_GRAPHE/sample/Test/SommetTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Model/Arete.java" afterPath="$PROJECT_DIR$/src/sample/Model/Arete.java" />
     </list>
     <ignored path="PT4_GRAPHE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,9 +49,21 @@
       <file leaf-file-name="Arete.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Model/Arete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreteTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Test/AreteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SommetTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SommetTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Test/SommetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,13 +140,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Arete.java" />
         <option value="$PROJECT_DIR$/src/sample/Arete.java" />
-        <option value="$PROJECT_DIR$/src/sample/Model/Arete.java" />
         <option value="$PROJECT_DIR$/src/sample/Controler/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/Tests/TestsGrapheModel.java" />
         <option value="$PROJECT_DIR$/src/sample/Tests/TestsGraphesView.java" />
         <option value="$PROJECT_DIR$/src/sample/Tests/SommetModelTest.java" />
         <option value="$PROJECT_DIR$/src/sample/Model/Sommet.java" />
         <option value="$PROJECT_DIR$/src/sample/Test/SommetTest.java" />
+        <option value="$PROJECT_DIR$/src/sample/Test/AreteTest.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Arete.java" />
       </list>
     </option>
   </component>
@@ -222,6 +237,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PT4_GRAPHE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PT4_GRAPHE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -266,7 +303,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SommetTest">
+  <component name="RunManager" selected="JUnit.AreteTest">
     <configuration default="false" name="SommetTest.testAjoutSommet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -331,6 +368,58 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="sample.Test" />
       <option name="MAIN_CLASS_NAME" value="sample.Test.SommetTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AreteTest.testAjoutArrete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PT4_GRAPHE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sample.Test" />
+      <option name="MAIN_CLASS_NAME" value="sample.Test.AreteTest" />
+      <option name="METHOD_NAME" value="testAjoutArrete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AreteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PT4_GRAPHE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sample.Test" />
+      <option name="MAIN_CLASS_NAME" value="sample.Test.AreteTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -589,16 +678,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SommetTest.testAjoutSommet" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SommetTest.testSuppressionSommet" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.SommetTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AreteTest.testAjoutArrete" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AreteTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SommetTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SommetTest.testSuppressionSommet" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SommetTest.testAjoutSommet" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AreteTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AreteTest.testAjoutArrete" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SommetTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SommetTest.testSuppressionSommet" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SommetTest.testAjoutSommet" />
       </list>
     </recent_temporary>
   </component>
@@ -616,11 +709,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SommetTest_testAjoutSommet - 2017.02.06 at 10h 22m 58s.xml">
-      <configuration name="SommetTest.testAjoutSommet" configurationId="JUnit" />
+    <history-entry file="AreteTest - 2017.02.06 at 10h 39m 53s.xml">
+      <configuration name="AreteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SommetTest_testAjoutSommet - 2017.02.06 at 10h 23m 11s.xml">
-      <configuration name="SommetTest.testAjoutSommet" configurationId="JUnit" />
+    <history-entry file="AreteTest_testAjoutArrete - 2017.02.06 at 10h 39m 35s.xml">
+      <configuration name="AreteTest.testAjoutArrete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SommetTest - 2017.02.06 at 10h 32m 34s.xml">
+      <configuration name="SommetTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SommetTest_testAjoutSommet - 2017.02.06 at 10h 25m 33s.xml">
       <configuration name="SommetTest.testAjoutSommet" configurationId="JUnit" />
@@ -791,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Model/Arete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controler/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -844,8 +932,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Test/SommetTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Arete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Test/AreteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
